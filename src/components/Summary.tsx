@@ -42,7 +42,7 @@ const Summary: React.FC<Props> = ({
   useEffect(() => {
     setStart(2);
     setIsDone(7);
-  });
+  }, []);
   const [style, setStyle] = useState("classic");
   const [colors, setColors] = useState(["#84a4e92f", "#2e50ad", "#0e034e"]);
 
