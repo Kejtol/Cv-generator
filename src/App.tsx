@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import StartPage from "./components/StartPage";
@@ -36,7 +36,7 @@ const App: React.FC = () => {
   });
 
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         {isDone < 7 && <NavBar isDone={isDone} setIsDone={setIsDone} />}
         <Routes>
@@ -156,7 +156,7 @@ const App: React.FC = () => {
           />
         )}
       </div>
-    </Router>
+    </HashRouter>
   );
 };
 
