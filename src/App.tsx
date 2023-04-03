@@ -36,12 +36,12 @@ const App: React.FC = () => {
   });
 
   return (
-    <Router>
+    <Router basename="/Cv-generator">
       <div className="App">
         {isDone < 7 && <NavBar isDone={isDone} setIsDone={setIsDone} />}
         <Routes>
           <Route
-            path="/"
+            path="/Cv-generator"
             element={
               <StartPage
                 start={start}
