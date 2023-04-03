@@ -36,7 +36,7 @@ const App: React.FC = () => {
   });
 
   return (
-    <Router>
+    <Router basename="#">
       <div className="App">
         {isDone < 7 && <NavBar isDone={isDone} setIsDone={setIsDone} />}
         <Routes>
