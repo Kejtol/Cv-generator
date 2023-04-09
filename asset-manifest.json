@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-generator/static/css/main.399d5797.css",
-    "main.js": "/cv-generator/static/js/main.bfb303b0.js",
+    "main.js": "/cv-generator/static/js/main.a3ddac39.js",
     "static/js/703.9b424da8.chunk.js": "/cv-generator/static/js/703.9b424da8.chunk.js",
     "static/js/258.ba52e9e9.chunk.js": "/cv-generator/static/js/258.ba52e9e9.chunk.js",
     "static/media/classic.png": "/cv-generator/static/media/classic.1679b170cf2e2e2e7bdd.png",
@@ -9,12 +9,12 @@
     "static/media/formal.png": "/cv-generator/static/media/formal.74ba17a6f88ad323a722.png",
     "index.html": "/cv-generator/index.html",
     "main.399d5797.css.map": "/cv-generator/static/css/main.399d5797.css.map",
-    "main.bfb303b0.js.map": "/cv-generator/static/js/main.bfb303b0.js.map",
+    "main.a3ddac39.js.map": "/cv-generator/static/js/main.a3ddac39.js.map",
     "703.9b424da8.chunk.js.map": "/cv-generator/static/js/703.9b424da8.chunk.js.map",
     "258.ba52e9e9.chunk.js.map": "/cv-generator/static/js/258.ba52e9e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.399d5797.css",
-    "static/js/main.bfb303b0.js"
+    "static/js/main.a3ddac39.js"
   ]
 }
