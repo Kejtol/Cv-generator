@@ -105,7 +105,7 @@ const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7vw;
+  height: 15vh;
   width: 100vw;
 `;
 const FooterButton = styled.div`

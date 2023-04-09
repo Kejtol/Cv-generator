@@ -57,7 +57,7 @@ export default NavBar;
 const NavBarContainer = styled.div`
   position: sticky;
   top: 0;
-  height: 10vw;
+  height: 16vh;
   width: 100vw;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -69,7 +69,7 @@ const NavBarTop = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 5vw;
+  height: 8vh;
   > h2 {
     font-size: 50px;
   }
@@ -77,7 +77,7 @@ const NavBarTop = styled.div`
 const NavBarBottom = styled.div`
   display: flex;
   align-items: center;
-  height: 5vw;
+  height: 8vh;
   justify-content: space-evenly;
   border-top: 1px solid #000;
 `;

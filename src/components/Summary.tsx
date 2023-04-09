@@ -59,7 +59,7 @@ const Summary: React.FC<Props> = ({
         const imgData = canvas.toDataURL("image/png");
         const pdf = new jsPDF("p", "pt", [pdfWidth, pdfHeight]);
         pdf.addImage(imgData, "PNG", 0, 0, pdfWidth, pdfHeight);
-        pdf.save("download.pdf");
+        pdf.save(`CV${user.name}${user.lastname}.pdf`);
       });
     }
   };
@@ -220,7 +220,15 @@ const SummaryLeft = styled.div`
     border: none;
     border-radius: 60px;
     color: white;
-    background-color: #df0909d3;
+    text-shadow: 5px 8px 11px rgba(66, 68, 90, 1);
+    box-shadow: 10px 8px 16px 4px rgba(66, 68, 90, 1);
+    background-color: rgba(224, 0, 4, 1);
+    background-image: linear-gradient(
+      146deg,
+      rgba(224, 0, 4, 1) 22%,
+      rgba(148, 10, 10, 1) 56%,
+      rgba(240, 0, 4, 1) 82%
+    );
   }
 `;
 const ColorSection = styled.div`
